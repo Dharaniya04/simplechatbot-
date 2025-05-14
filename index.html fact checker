@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fact Checker Bot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="chatbox">
+    <div id="chatlog"></div>
+    <input type="text" id="userInput" placeholder="Ask a fact..." />
+    <button onclick="checkFact()">Check Fact</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
